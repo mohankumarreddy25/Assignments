@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    }
+
+form{
+    max-width: 600px;
+    padding: 20px;
+    margin: 1px auto;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: calibri;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 200px;
+}
+input{
+    width: 60%;
+    padding: 10px;
+}
+#Result{
+    width: 95%;
+}
+
+button{
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid;
+    background-color: rgb(171, 60, 8);
+}
+p{
+    text-align: center;
+}

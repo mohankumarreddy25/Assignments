@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Caculator</title>
+    <link rel="stylesheet" href="./tax.css">
+</head>
+<body>
+    <form action="#">
+        <h1>Tax Caculater</h1><br><hr><br>
+        <p><b>NOTE : </b> Enter The Name And Salary</p><br><br>
+        <label for="Empolyeename"> Enter The Name :</label>
+        <input type="text" id="Empolyeename"><br><br>
+
+        <label for="EmpolyeeSalary">Enter The Salary :</label>
+        <input type="text" id="EmpolyeeSalary"><br><br>
+         
+        <button id="btn1" type="reset">clear</button>
+
+        <button onclick=taxCalc();>Calculate</button><br><br>
+
+        <label for="deduction1">deduction -1 :</label>
+        <input type="text" id="deduction1"><br><br>
+
+        <label for="Deduction2">Deduction -2 :</label>
+        <input type="text" id="deduction2"><br><br>
+
+        <label for="totalDeduction">totalDeduction</label>
+        <input type="text" id="totalDeduction"><br><br>
+
+        <label for="Result">Result :</label>
+        <input type="text" id="result"><br><br>
+
+        
+        
+    </form>
+
+ 
+    <script src="./tax.js">
+    </script>
+</body>
+</html>
+
+ 
