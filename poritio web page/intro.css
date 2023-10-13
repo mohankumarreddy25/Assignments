@@ -1,0 +1,84 @@
+
+body{
+    background-color: black;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+/* .collapsenavbar-collapse{
+    text-align: center;
+} */
+.btn{
+    background-color: yellowgreen;
+
+}
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+    /* gap: 10px; */
+    background-color: #2196F3;
+    padding: 10px;
+
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: white;
+}
+.text{
+    color: white;
+}
+.mohan{
+    width: 200px;
+    height: 200px;
+    padding: 0%;
+    
+    animation-duration: 2sec;
+    accent-color: red;    
+}
+/* @keyframes{
+mohan{}
+} */
+.container-fluid{
+    background-color: black;
+    /* height: 70px; */
+}
+
+.card1 img{ 
+    border-radius: 10px;  
+}
+
+.card2 img{ 
+    border-radius: 10px;  
+}
+.card3 img{ 
+    border-radius: 10px;  
+}
+
+.card1 img:hover{
+    transform: scale(1.04);
+}
+.card2 img:hover{
+    transform: scale(1.04);
+}
+.card3 img:hover{
+    transform: scale(1.04);
+}
+.col{
+    overflow: hidden;
+}
+
+
+
+
